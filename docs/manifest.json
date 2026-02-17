@@ -1,0 +1,80 @@
+{
+  "sdk": "python",
+  "version": "1.0.0",
+  "language": "Python",
+  "title": "Nodela Python SDK",
+  "description": "Official Python SDK for the Nodela cryptocurrency payment API",
+  "repository": "https://github.com/Devkrea8-Technologies/nodela-python-sdk",
+  "package": "nodela",
+  "installCommand": "pip install nodela",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "file": "getting-started.md",
+      "order": 1,
+      "description": "Installation, authentication, and your first API call"
+    },
+    {
+      "id": "client-configuration",
+      "title": "Client Configuration",
+      "file": "client-configuration.md",
+      "order": 2,
+      "description": "Configuring the NodelaClient with timeouts, retries, and environment variables"
+    },
+    {
+      "id": "invoices",
+      "title": "Invoices",
+      "file": "invoices.md",
+      "order": 3,
+      "description": "Creating and verifying payment invoices"
+    },
+    {
+      "id": "transactions",
+      "title": "Transactions",
+      "file": "transactions.md",
+      "order": 4,
+      "description": "Listing and paginating through transactions"
+    },
+    {
+      "id": "models",
+      "title": "Models",
+      "file": "models.md",
+      "order": 5,
+      "description": "Request and response model reference"
+    },
+    {
+      "id": "error-handling",
+      "title": "Error Handling",
+      "file": "error-handling.md",
+      "order": 6,
+      "description": "Exception types, status codes, and error recovery patterns"
+    },
+    {
+      "id": "supported-currencies",
+      "title": "Supported Currencies",
+      "file": "supported-currencies.md",
+      "order": 7,
+      "description": "Full list of 60+ supported fiat currencies by region"
+    },
+    {
+      "id": "examples",
+      "title": "Examples",
+      "file": "examples.md",
+      "order": 8,
+      "description": "End-to-end usage examples and common integration patterns"
+    }
+  ],
+  "navigation": {
+    "prev": null,
+    "next": null,
+    "parent": "/sdks"
+  },
+  "metadata": {
+    "pythonVersions": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+    "license": "MIT",
+    "author": "NodelaPay LTD",
+    "docsUrl": "https://docs.nodela.co/sdks/python",
+    "apiBaseUrl": "https://api.nodela.co"
+  }
+}
