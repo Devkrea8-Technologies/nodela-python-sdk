@@ -1,9 +1,13 @@
 """Base model for API responses."""
 
-from typing import Any, Dict
+from __future__ import annotations
+
+from typing import Any, Dict, TypeVar
 
 from pydantic import BaseModel as PydanticBaseModel
 from pydantic import ConfigDict
+
+T = TypeVar("T", bound="BaseModel")
 
 
 class BaseModel(PydanticBaseModel):
@@ -21,6 +25,6 @@ class BaseModel(PydanticBaseModel):
         return self.model_dump(exclude_none=True)
 
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> "BaseModel":
+    def from_dict(cls: type[T], data: Dict[str, Any]) -> T:
         """Create model instance from dictionary."""
         return cls(**data)
