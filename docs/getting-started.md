@@ -4,7 +4,7 @@ Learn how to install the Nodela Python SDK and make your first payment invoice.
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.9 or higher
 - A Nodela account with an API key ([sign up here](https://nodela.co))
 
 ## Installation

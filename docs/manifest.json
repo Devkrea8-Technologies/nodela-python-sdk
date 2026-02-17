@@ -71,7 +71,7 @@
     "parent": "/sdks"
   },
   "metadata": {
-    "pythonVersions": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+    "pythonVersions": ["3.9", "3.10", "3.11", "3.12", "3.13"],
     "license": "MIT",
     "author": "NodelaPay LTD",
     "docsUrl": "https://docs.nodela.co/sdks/python",

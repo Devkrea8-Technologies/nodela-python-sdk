@@ -22,7 +22,7 @@ The official Python SDK for the [Nodela](https://nodela.co) cryptocurrency payme
 pip install nodela
 ```
 
-**Requirements:** Python 3.8+
+**Requirements:** Python 3.9+
 
 ## Quick Start
 
